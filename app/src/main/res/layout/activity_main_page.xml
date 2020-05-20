@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="ADD"
+        android:textColor="#fff"
+        android:background="#000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Doe"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Date Of Entry"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/rom"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Room Number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bname"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Branch Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/notes"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Additional Notes"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/homie"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Student Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Dob"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Date of Birth"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ph"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Phone number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emain"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email ID"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pname"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Parent Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pph"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Parent Phone Number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

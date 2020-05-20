@@ -1,0 +1,102 @@
+package com.example.hostelmanagementsystem;
+
+public class Userhelperclas {
+
+    String name,dob,eid,ph,pph,doe,notes,branch,rom,pname;
+
+    public Userhelperclas() {
+    }
+
+    public Userhelperclas(String name, String dob, String eid, String ph, String pph, String doe, String notes, String branch, String rom, String pname) {
+        this.name = name;
+        this.dob = dob;
+        this.eid = eid;
+        this.ph = ph;
+        this.pph = pph;
+        this.doe = doe;
+        this.notes = notes;
+        this.branch = branch;
+        this.rom = rom;
+        this.pname = pname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public void setDob(String dob) {
+        this.dob = dob;
+    }
+
+    public String getEid() {
+        return eid;
+    }
+
+    public void setEid(String eid) {
+        this.eid = eid;
+    }
+
+    public String getPh() {
+        return ph;
+    }
+
+    public void setPh(String ph) {
+        this.ph = ph;
+    }
+
+    public String getPph() {
+        return pph;
+    }
+
+    public void setPph(String pph) {
+        this.pph = pph;
+    }
+
+    public String getDoe() {
+        return doe;
+    }
+
+    public void setDoe(String doe) {
+        this.doe = doe;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public String getBranch() {
+        return branch;
+    }
+
+    public void setBranch(String branch) {
+        this.branch = branch;
+    }
+
+    public String getRom() {
+        return rom;
+    }
+
+    public void setRom(String rom) {
+        this.rom = rom;
+    }
+
+    public String getPname() {
+        return pname;
+    }
+
+    public void setPname(String pname) {
+        this.pname = pname;
+    }
+}
